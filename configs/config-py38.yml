@@ -1,6 +1,6 @@
 docker_image: "nsls2/linux-anvil-cos7-x86_64:latest"
-env_name: "py38"
-conda_env_file: "env-py38.yml"
+env_name: "lsdc-server-2022-2.0-py38"
+conda_env_file: "env-lsdc-server-2022-2.0-py38.yml"
 conda_binary: "mamba"
 python_version: "3.8"
 pkg_name: ""
