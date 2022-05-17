@@ -12,7 +12,7 @@ dependencies:
   - bluesky >=1.8.3
   - bluesky-kafka >=0.9.0
   - conftrak >=0.0.7
-  - databroker >=2.0.0_b2=*_1
+  - databroker >=2.0.0b2=*_1
   - event-model >=1.17.2
   - hdf5-external-filter-plugins-bitshuffle
   - hdf5-external-filter-plugins-lz4
