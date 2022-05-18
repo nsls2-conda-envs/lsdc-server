@@ -4,8 +4,6 @@ channels:
 dependencies:
   - python >=3.9,<3.10
   - conda-pack
-  - pip:
-    - ipython
   - amostra <1,>=0.2.3
   - analysisstore >=0.0.6
   - area-detector-handlers
@@ -27,3 +25,5 @@ dependencies:
   - python-confluent-kafka
   - xlrd
   - xmltodict
+  - pip:
+    - ipython
