@@ -26,5 +26,6 @@ dependencies:
   - python-confluent-kafka
   - xlrd
   - xmltodict
+  - pip
   - pip:
     - ipython
