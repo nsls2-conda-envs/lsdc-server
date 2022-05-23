@@ -1,8 +1,0 @@
-name: py39
-channels:
-  - conda-forge
-dependencies:
-  - python >=3.9,<3.10
-  - conda-pack
-  - pip:
-    - ipython
