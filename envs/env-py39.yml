@@ -20,7 +20,7 @@ dependencies:
   - mxtools >=0.0.5
   - nslsii >=0.4.0
   - numpy >=1.14.0
-  - nyxtools >=0.0.9
+  - nyxtools >=0.0.10
   - openpyxl
   - ophyd >=1.6.4
   - python-confluent-kafka
