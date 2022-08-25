@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.8", "3.9"]
+        python-version: ["3.8"]  # , "3.9"] temporarily disable 3.9 until ispyb
+                                 # and mysql-connector-python can be upgraded together
       fail-fast: false
     env:
       TZ: America/New_York
