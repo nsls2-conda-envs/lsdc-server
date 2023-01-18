@@ -17,11 +17,11 @@ dependencies:
   - ipython
   - ispyb ==5.6.2
   - matplotlib >=3.1.0,!=3.3
-  - mxtools >=0.0.8
+  - mxtools >=1.0.1
   - mysql-connector-python ==8.0.18
   - nslsii >=0.4.0
   - numpy >=1.14.0
-  - nyxtools >=0.0.10
+  - nyxtools >=0.0.11
   - openpyxl
   - ophyd >=1.6.4
   - python-confluent-kafka
