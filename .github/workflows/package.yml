@@ -54,7 +54,7 @@ jobs:
         shell: bash -l {0}
         run: |
           # For reference: https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html.
-          set -vxeuo pipefail
+          set -vxeo pipefail
           python3 -m pip install -r ${CONDA_PACK_TEMPLATE_DIR}/requirements.txt
           python3 -m pip install shyaml
 
@@ -81,7 +81,7 @@ jobs:
         shell: bash -l {0}
         run: |
           # For reference: https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html.
-          set -vxeuo pipefail
+          set -vxeo pipefail
 
           env_name=$(cat configs/config-py${PYTHONVER}.yml | shyaml get-value env_name)
           export CONDA_PACK_ENV_NAME="${env_name}"
