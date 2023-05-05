@@ -1,5 +1,5 @@
 docker_image: "quay.io/condaforge/linux-anvil-cos7-x86_64:latest"
-env_name: "lsdc-server-2023-2.0-py38"
+env_name: "lsdc-server-2023-2.1-py38"
 conda_env_file: "env-py38.yml"
 conda_binary: "mamba"
 python_version: "3.8"
