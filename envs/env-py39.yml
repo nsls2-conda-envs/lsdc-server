@@ -21,7 +21,7 @@ dependencies:
   - mysql-connector-python ==8.0.18
   - nslsii >=0.4.0
   - numpy >=1.14.0
-  - nyxtools >=0.0.12
+  - nyxtools >=0.0.13
   - openpyxl
   - ophyd >=1.6.4
   - python-confluent-kafka
